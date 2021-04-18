@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/timer"
+            android:icon="@drawable/alrm"
+            android:title="Timer" />
+        <item
+            android:id="@+id/notes"
+            android:icon="@drawable/notes"
+            android:title="Notes" />
+        <item
+            android:id="@+id/calender"
+            android:icon="@drawable/calender"
+            android:title="Calender" />
+
+    </group>
+    <item android:title="Storage">
+        <menu>
+            <item
+                android:id="@+id/TodoList"
+                android:icon="@drawable/ic_message"
+                android:title="TodoLists" />
+            <item
+                android:id="@+id/VoiceAlrms"
+                android:icon="@drawable/ic_message"
+                android:title="Voice Alarms" />
+        </menu>
+    </item>
+</menu>

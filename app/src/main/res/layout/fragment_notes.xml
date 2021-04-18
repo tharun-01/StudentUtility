@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Notes">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="80sp"
+        android:textColor="@color/white"
+        android:id="@+id/ed"
+        android:gravity="center"
+        android:layout_marginTop="250sp"
+        android:layout_gravity="center"
+        android:text="helloooo"
+        android:backgroundTint="@color/black"
+
+        android:background="@color/white"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:layout_gravity="center"
+        android:id="@+id/submit"/>
+
+
+</LinearLayout>
